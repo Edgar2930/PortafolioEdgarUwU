@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" onmousemove="movimiento()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="author" content="edghar porta">
+    <link rel="icon" href="/recursos/logooo.png">
+    <script src="imagen.js"></script>
+</head>
+
+
+
+<body>
+
+    <img width="250px" src="/recursos/ratonMover.png" id="mover" class="imagenMover">
+
+    <h1 class="porta">PORTAFOLIO</h1>
+    <div class="menuContenedor">
+        <header>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#bibliografia" onclick="seleccionar()">BIBLIOGRAFIA</a></li>
+                    <li><a href="#aprendizaje" onclick="seleccionar()">APRENDIZAJES</a></li>
+                    <li><a href="#experiencia" onclick="seleccionar()">EXPERIENCIAS</a></li>
+                    <li><a href="#hobby" onclick="seleccionar()">HOBBY</a></li>
+                    <li><a href="#redes" onclick="seleccionar()">REDES</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="caja1">
+        <CENter>
+            <header>
+                <h4 id="bibliografia">BIOGRAFIA</h4>
+            </header>
+        </CENter>
+        <nav>
+
+            <img src="./me.jpg" class="foto">
+            <p class="textobi">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos quidem in enim incidunt alias vero sequi
+                rem
+                voluptatem eos, doloribus consequatur quasi nam amet perferendis autem nostrum cum illum sit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia fuga quaerat perferendis modi rerum
+                corporis, deserunt ipsum, iusto aspernatur doloribus sed harum facere quibusdam odit repellat, ipsam
+                quasi
+                debitis sapiente.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem officiis incidunt magni doloremque,
+                suscipit voluptatibus sed eos, fuga labore ipsam, maxime laboriosam impedit iure! Delectus at
+                consectetur
+                maiores quasi labore?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsam enim commodi quas accusamus magnam
+                doloribus aliquam ipsa error ullam, ea, soluta dignissimos quae, voluptates quia placeat nihil quis.
+                Dolor.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo quasi laborum totam rerum at fugiat nulla
+                cumque ex dolore voluptatibus vel dolores voluptates, rem alias. Expedita inventore dignissimos omnis
+                ipsum.
+            </p>
+    </div>
+
+    <div class="contenedor">
+        <header id="aprendizaje">
+            <center>
+                <p>APRENDIZAJES</p>
+            </center>
+        </header>
+        <ul>
+
+            <li>
+                <div class="title">CSS</div>
+                <nav>
+                    <center><img src="/LOGO/css.png" class="mover"></center>
+                    <p>El diseño de una página o sitio web necesita un lenguaje común para que los navegadores puedan
+                        interpretarlo y mostrarlo a las personas de la forma correcta.</p>
+                </nav>
+            </li>
+            <li>
+                <div class="title">HTML</div>
+                <nav>
+                    <center><img src="/LOGO/html.png" class="mover"></center>
+                    <p>Es el componente más básico de la Web. Define el significado y la estructura del contenido web.
+                        Además de HTML, generalmente se utilizan otras tecnologías para describir la
+                        apariencia/presentación
+                        de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).</p>
+                </nav>
+            </li>
+            <li>
+                <div class="title">JAVA</div>
+                <nav>
+                    <center><img src="/LOGO/java.png" class="mover"></center>
+                    <p>Un lenguaje multiplataforma, orientado a objetos y centrado en la red que se puede utilizar como
+                        una
+                        plataforma en sí mismo. Es un lenguaje de programación rápido, seguro y confiable para
+                        codificarlo
+                        todo, desde aplicaciones móviles y software empresarial hasta aplicaciones de macrodatos y
+                        tecnologías del servidor.</p>
+                </nav>
+            </li>
+            <li>
+                <div class="title">PYTHON</div>
+                <nav>
+                    <center><img src="/LOGO/python.jpg" class="mover"></center>
+                    <p>Es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de
+                        software, la ciencia de datos y el machine learning</p>
+                </nav>
+
+            </li>
+            <li>
+                <div class="title">CISCO</div>
+                <nav>
+                    <center><img src="/LOGO/cisco.jpg" class="mover"></center>
+                    <p>Cisco Packet Tracer es una herramienta de simulación multiplataforma, diseñada por Cisco Systems,
+                        que
+                        te va a permitir crear distintas simulaciones del funcionamiento o instalación de redes de
+                        telecomunicaciones e informáticas de Cisco.</p>
+                </nav>
+
+            </li>
+            <li>
+                <div class="title">SQL Server</div>
+                <nav>
+                    <center><img src="/LOGO/SQL.jpg" class="mover"></center>
+                    <P>Es ideal para almacenar toda la información deseada en bases de datos relacionales, como también
+                        para
+                        administrar dichos datos sin complicaciones, gracias a su interfaz visual y a las opciones y
+                        herramientas que tiene</P>
+            </li>
+        </ul>
+    </div>
+
+    <div class="contenedor">
+        <header id="experiencia">
+            <center>
+                <p>EXPERIENCIAS </p>
+            </center>
+        </header>
+        <ul>
+
+            <li>
+                <div class="title">MESERO</div>
+                <nav>
+                    <center><img src="/expe/mese.jpg" class="mover2"></center>
+                    <p>En el transcuros del periodo de preparatoria labore como mesero</p>
+                    <br>
+                </nav>
+            </li>
+
+            <li>
+                <div class="title">TECNICO DE COMPUTACION</div>
+                <nav>
+                    <center><img src="/expe/tecnoc.jpg" class="mover2"></center>
+                    <p>En el transcurso de la preparatoria "CECYTEM" nos formamos como tecnicos en sistemas de computo,
+                        con certificado incluido</p>
+                    <br>
+                </nav>
+            </li>
+
+            <li>
+                <div class="title">FLAUTA</div>
+                <nav>
+                    <center><img src="/expe/fla.jpg" class="mover2"></center>
+                    <p>A lo largo de la niñez unos de Experiencias eran aprender a conocer instrumentos musicales, así
+                        que la flauta se convirtio en uno de ellos</p>
+                    <br>
+                </nav>
+            </li>
+
+            <li>
+                <div class="title">NATACION</div>
+                <nav>
+                    <center><img src="/expe/natacion.jpg" class="mover2"></center>
+                    <p>En el transcurso de mi niñez logre obtener una de las virtudez la cual fue la natacion.</p>
+                    <br>
+                </nav>
+
+            </li>
+
+        </ul>
+    </div>
+
+
+    <div class="contenedor">
+        <header id="hobby">
+            <center>
+                <p>HOBBY</p>
+            </center>
+        </header>
+        <ul>
+
+            <li>
+                <div class="title">MUSICA</div>
+                <nav>
+                    <center><img src="/recursos/MUSIC.jpg" class="mover2"></center>
+                    <p></p>
+                </nav>
+
+            </li>
+            <li>
+                <div class="title">GYM</div>
+                <nav>
+                    <center><img src="/recursos/GYM.jpeg" class="mover2"></center>
+                    <p></p>
+                </nav>
+            </li>
+            <li>
+                <div class="title">LIBROS</div>
+                <nav>
+                    <center><img src="/recursos/LIBROS.jpg" class="mover2"></center>
+                    <p></p>
+                </nav>
+            </li>
+            <li>
+                <div class="title">MEDITACION</div>
+                <nav>
+                    <center><img src="/recursos/MED.webp" class="mover2"></center>
+                    <p></p>
+                </nav>
+            </li>
+        </ul>
+    </div>
+
+    <!--
+    
+    <div class="caja3">
+        <CENter>
+            <h1>Experiencia</h1>
+        </CENter>
+        <nav>
+            <nav class="ventana">
+                <h1>holis</h1>
+    
+            </nav>
+            <nav class="ventana">
+                <h1>holis</h1>
+    
+            </nav>
+            <nav class="ventana">
+                <h1>holis</h1>
+    
+            </nav>
+        </nav>
+    </div>
+    
+    
+    
+    
+    -->
+
+
+    
+</body>
+
+
+
+
+
+</html>
