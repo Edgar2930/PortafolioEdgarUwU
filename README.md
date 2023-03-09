@@ -1,0 +1,2 @@
+# PortafolioEdgarUwU
+Portafolio personal. 
